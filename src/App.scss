@@ -1,0 +1,40 @@
+a,
+a:active,
+a:visited,
+a:hover,
+a:link {
+	text-decoration: none;
+}
+
+.brand {
+	color: #fff;
+	font-size: 1.6rem;
+}
+
+.navbar-brand .nav-link {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+.del-btn {
+	position: absolute;
+	top: 4px;
+	right: 5px;
+}
+
+.login-container {
+	height: 70vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.task-details {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
